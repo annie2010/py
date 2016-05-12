@@ -1,0 +1,10 @@
+The basics of Object Oriented Python.
+Such as BeautifulSoup, strings, dictionaries, database connections all use Object Oriented (OO) patterns we should at least understand some of its patterns and terminology.
+
+Four core CRUD operations (Create, Read, Update, and Delete) to manage data stored in a database.
+
+How data is stored across multiple tables in a database and how rows are linked (i.e., we establish relationships) in the database.
+
+Many-to-Many Relationships in SQL
+
+Databases and Visualization
