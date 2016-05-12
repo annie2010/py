@@ -1,0 +1,9 @@
+Starting with lists
+we will store many values in a single variable using an indexing scheme to store, organize, and retrieve different values from within a single variable.
+We call these multi-valued variables "collections" or "data structures".
+
+The Python dictionary is one of its most powerful data structures.
+Instead of representing values in a linear list, dictionaries store data as key / value pairs. Using key / value pairs gives us a simple in-memory "database" in a single Python variable.
+
+Tuples are our third and final basic Python data structure.
+Tuples are a simple version of lists. We often use tuples in conjunction with dictionaries to accomplish multi-step tasks like sorting or looping through all of the data in a dictionary.
