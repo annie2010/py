@@ -1,28 +1,27 @@
 class Stack:
 
-    def __init__(self):
+   def __init__(self):
        self.items = []
 
-    def push(self, item):
-        self.items.append(item)
+   def push(self, item):
+       self.items.append(item)
 
-    def pop(self):
-        if len(self.items) > 0:
-            return self.items.pop()
-        else:
-            return None
+   def pop(self):
+       if self.empty():
+           return None
+       else:
+           return self.items.pop()
 
-    def size(self):
-        return len(self.items)
+   def empty(self):
+       return (self.size() == 0)
 
-s = Stack()
+   def size(self):
+       return len(self.items)
 
+
+s=Stack()
 s.push(1)
 s.push(2)
 s.push(3)
 
-print ([s.pop() for i in range(s.size())]) ## py3.4 - print
-print (s.pop())
-
-
-
+print ( [ s.pop() for i in range(s.size() ) ] )     
